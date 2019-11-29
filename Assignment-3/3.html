@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>USER DETAILS</title>
+	<script type="text/javascript">
+	
+	function User(){
+	this.username
+	this.address
+	this.phoneno
+	this.emailid
+	this.eduqua
+	this.age
+	}
+	
+	function display(){
+	var newUser= new User()
+	newUser.username=document.getElementById("name_input").value
+	newUser.address=document.getElementById("address_input").value
+	newUser.phoneno=document.getElementById("phoneno_input").value
+	newUser.emailid=document.getElementById("emailid_input").value
+	newUser.eduqua=document.getElementById("eduqua_input").value
+	newUser.age=document.getElementById("age_input").value
+	
+	document.getElementById("name_output").innerHTML=newUser.username
+	document.getElementById("address_output").innerHTML=newUser.address 
+	document.getElementById("phoneno_output").innerHTML=newUser.phoneno
+	document.getElementById("emailid_output").innerHTML=newUser.emailid
+	document.getElementById("eduqua_output").innerHTML=newUser.eduqua
+	document.getElementById("age_output").innerHTML=newUser.age
+	
+	document.getElementById("name_input").value=""
+	document.getElementById("address_input").value=""
+	document.getElementById("phoneno_input").value=""
+	document.getElementById("emailid_input").value=""
+	document.getElementById("eduqua_input").value=""
+	document.getElementById("age_input").value=""
+	}
+	</script>
+<center>	<h1>USER DETAILS</h1></center></head>
+	<body bgcolor="antiquewhite">
+	<center>
+		<form>
+		
+		<b><i>User Name: </b></i><input type="text" id="name_input"/> <br><br>
+		<b><i>User Address: </b></i><input type="text" id="address_input" /><br><br>
+		<b><i>User Phone Number: </b></i><input type="text" id="phoneno_input" /><br><br>
+		<b><i>User Email ID: </b></i><input type="text" id="emailid_input" /><br><br>
+		<b><i>User Educational Qualifications: </b></i><input type="text" id="eduqua_input" /><br><br>
+		<b><i>User Age: </b></i><input type="text" id="age_input" /><br><br>
+
+	<input type="button" value="SUBMIT" onclick="display()"></input>
+	</form>
+		<br><br>
+		<table border="4" bordercolorlight="brown" bordercolordark="brown"> 
+				<tr>
+				<td><b> NAME : </b></td>
+				<td id="name_output"> </td>
+				</tr>
+				<tr>
+				<td><b> ADDRESS : </b></td>
+				<td id="address_output"> </td>
+				</tr>
+				<tr>
+				<td><b> PHONE NUMBER: </b></td>
+				<td id="phoneno_output"> </td>
+				</tr>
+				<tr>
+				<td><b> EMAIL ID : </b></td>
+				<td id="emailid_output"> </td>
+				</tr>
+				<tr>
+				<td><b> EDUCATIONAL QUALIFICATIONS : </b></td>
+				<td id="eduqua_output"> </td>
+				</tr>
+				<tr>
+				<td><b> AGE : </b></td>
+				<td id="age_output"> </td>
+				</tr>
+				
+		</table>
+		</center>	
+	</body>
+</html>

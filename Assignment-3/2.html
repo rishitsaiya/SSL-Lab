@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FREQUENCY</title>
+<center><h1>THE MOST FREQUENT CHARACTER</h1></center>
+
+<script type="text/javascript">
+
+function hum(){
+	//document.write("Entered");
+	f1=document.getElementById("f1");
+	istring=f1.elements[0].value;
+	//document.write("Entered");
+	var len,count=0,i=0,max=0,c,c2,maxc;
+	len=istring.length;
+
+	for (var i=1; i<150; i++) {
+		c=String.fromCharCode(i);
+		if(c==',')
+			continue
+		else{
+		for(j=0;j<len;j++){
+			c2=istring.charAt(j);
+			if(c==c2)
+				count+=1;
+		}		
+	if(count>max){
+		max=count;
+		maxc=c;
+	}
+	count=0;
+	}
+}
+	document.write("Most Frequent Character: "+maxc);
+	document.write("<br>Number of Occurences: "+max);
+} //Function ending here
+</script>
+</head>
+
+<body bgcolor="antiquewhite">
+<form id="f1" onsubmit="hum()">
+<center>
+Input String: <input type="textbox"><br><br>
+<input type="submit" value="GO!">
+</center>
+</form>
+
+</body>
+</html>
