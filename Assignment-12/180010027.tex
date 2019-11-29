@@ -1,0 +1,80 @@
+\documentclass{article}
+	\title{LATEX}
+	\author{180010027}
+	\usepackage{ gensymb }
+	\usepackage{ tipa }
+	\usepackage{ amsmath }
+	\usepackage{ enumitem }
+	\usepackage{ multirow }
+	\usepackage{ booktabs }
+	\usepackage{ chemformula }
+\begin{document}
+\maketitle{}
+\section{Formulas}
+	\begin{enumerate}[label=(\alph*)]
+	\item$974$
+	\item$4 + 2$
+	\item$\sqrt[3]5$
+	\item$\frac{x}{y}$
+	\item$A^x y$
+	\item$\sum k = 1^n k$
+	\item$2 \neq 4$
+	\item$\phi \in \Psi$
+	\item$f (\xi)$
+	\item$\ch{CH3COOH}$
+	\item$180^{\degree}$C
+	\item$\forall x \in \mathbf{R}: \quad\quad\quad x^2 \geq 0$
+	\item
+		\begin{equation*}
+			\sum_{\substack{0 < i < n\\{j\subseteq i}}}^{n} Q(i,j) = P(i,j) \times R(i,j)
+		\end{equation*}
+	\item$\forall P \cdot [[P(0) \wedge \forall(k \in \mathbf{N}) \cdot [P(k)  \Longrightarrow P(k+1)]] \Longrightarrow \forall n \in \mathbf{N} \cdot P(n)]$
+\end{enumerate}
+
+\section{Others}
+\begin{enumerate}[label=(\alph*)]
+	\item \textbf{greatest} discoveries in \textit{science}.
+	\item
+		\begin{tabular}{ |c|c|c|c| } 
+		\hline
+		col1 & col2 & col3 \\
+		\hline
+		\multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+		& cell5 & cell6 \\ 
+		& cell8 & cell9 \\ 
+		\hline
+		\end{tabular}
+
+		\begin{tabular}{ |c|c|c| } 
+		 \hline
+		 cell1 & cell2 & cell3 \\ 
+		 cell4 & cell5 & cell6 \\ 
+		 cell7 & cell8 & cell9 \\ 
+		 \hline
+		\end{tabular}
+
+	\item Fruits
+		\begin{enumerate}[label=(\roman*)]
+			\item Apple
+			\item Watermelon
+		\end{enumerate}
+
+	\item
+		\begin{itemize}
+		   \item Some text
+		   \item Some more text
+		   \item Some more more text
+		\end{itemize}
+
+
+
+\end{enumerate}
+
+\bibliographystyle{plain}
+\bibliography{180010027.bib}
+		This is a test.
+
+		In \cite{Jones77} reachability of Timed Petri nets is shown to be
+undecidable. 
+
+\end{document}
