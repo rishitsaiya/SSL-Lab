@@ -1,0 +1,116 @@
+
+Lab statement 8:
+October 1, 2019
+
+
+Aim of this lab is to learn about linux environment, 
+get familiar with linux command line and utilities. 
+
+This lab is not evaluated. 
+But it has various questions having tasks.
+Please make sure that you complete these. 
+------------------------------------------------------------------
+Question 1 :  
+ 
+Task 1 : Create a file abc1.txt without using an editor. 
+         You can use touch command for that. 
+
+Task 2 : put the output of 'ls' command into abc1.txt 
+
+Task 3 : append the output of 'pwd' command to abc1.txt
+ 
+Task 4 : view its output using 'cat' command. 
+ 
+------------------------------------------------------------------
+
+Question 2: 
+
+Task 1 : Create an empty file abc2.txt  without using any editor and/or touch command. 
+         Hint : Use command "cat" and "input output redirection". 
+ 
+Task 2 : Put some contents in abc2.txt
+         using cat and input-output redirection. 
+
+Task 3 : Put some contents in abc1.txt
+         using cat and input-output redirection. 
+
+Task 4 : Append contents of abc2.txt to abc1.txt, 
+         again using cat and input-output redirection. 
+
+------------------------------------------------------------------
+Question 3: output redirection using pipes. 
+
+Task 1 : what following command does?
+         ls | wc -l > count.txt
+
+Task 2 : what following command does? Can you guess before running
+         command on command line?
+
+    echo -e "orange \npeach \ncherry" | sort > fruit
+
+Task 3 : modify the above command to get the output sorted in reverse order. 
+
+---------------------------------------------------------------------
+
+Question 4: creating your own commands. 
+
+
+ls -l gives many things in the output. 
+First field gives permissions and the last one gives file name, 
+for all the files in the specified directory.
+
+Task 1 : Write a linux command which 
+         prints only the first and last field of output of ls -l file.
+         (use 'cut' command).
+
+Task 2 : Take above output and sort them according to the size
+         (increasing order).
+         (use sort command)
+
+Task 3 : This command is not built in linux.
+         Can you create a separate command called 'myls' using 'aliasing. 
+         you can make it permanent using '.bash_aliases' file. 
+
+Task 4 : You can put this a shell script in the file called 'myls.sh.
+         make it executable and put in your local bin directory (~/bin). 
+         you may have to include your local bin into PATH variable (EXPORT variables). 
+         This is another way of creating your own commands. 
+         What should be the first line of a bash script?
+
+Task 5: A bash script which runs many commands : 
+        Write a bash script which does the following:
+        a) lists  contents of current directory
+        b) removes files with extension ".txt"
+        c) lists  contents of current directory, one more time. 
+--------------------------------------------------------------------
+Question 5 : grep 
+
+Task 1 : learn about this command, which is used to capture patterns in text files.
+         This is closely related to your automata theory course in the next semester. 
+
+Task 2 : use grep command to count the number of lines in given file in which word or pattern "abc".
+
+Task 3:  Use grep to list only those files which has "abc" in it. 
+         (use ls then redirect its output to grep)
+         Things to learn about "wild cards".
+--------------------------------------------------------------------
+
+Question 6 : foreground and background processes 
+
+Task 1 : Open a pdf file from command line using 'evince' command. 
+         If you do not have evince use any of the following : libreofice, gedit etc. 
+         Notice that you can not use command line.
+
+Task 2 : If you want open any such application/command and still have
+	 access to command line use 'evince file.pdf & '
+         and put the process in background. 
+Task 3 : you can list processes running in background by 'bg'
+
+Task 3 : you can bring this process in foreground by using 'fg' .
+
+--------------------------------------------------------------------
+Question 7 : use vi or emacs editors for file handling.  
+         These are  text based editors.
+         If you think vi is difficult to use, read about its history, 
+         on why it is called 'visual' editor :-)
+--------------------------------------------------------------------    
