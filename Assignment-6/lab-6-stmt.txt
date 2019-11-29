@@ -1,0 +1,62 @@
+Software systems Lab
+Date  : 2nd week Sept. 2019
+Lab 6  : SQL 
+ 
+This Lab is not graded. 
+ 
+------------------------------------------------------------------ 
+You have to read and learn sql, using the given resource. 
+See if you can answers at the end of the chapter. 
+------------------------------------------------------------------ 
+In Particular you will learn following things:
+
+create databases,
+create tables, 
+delete tables, 
+delete databases,
+rename tables, 
+rename columns, 
+ 
+insert columns in a given table,
+insert rows in a given table,
+
+delete columns, 
+delete rows,
+updating values.
+ 
+taking back up of a database.
+
+Most of these operations are done using following SQL commands:
+
+select 
+count
+where
+order by
+group by
+update set 
+limit
+join- natural join, taking join specifying columns, using logical
+operators. 
+------------------------------------------------------------------ 
+Teaser question: (not graded).
+
+Suppose you are given a text file in the following format 
+
+rollno	marks
+12132   434
+23233   344
+33242   3434
+12132   434
+12132   434
+12132   434
+23233   344
+33242   3434
+23233   344
+33242   3434
+23233   344
+33242   3434
+....
+containing more than 1000 lines. 
+Can you add these lines in bulk into a table called marks ?
+You have to use SQL.
+------------------------------------------------------------------ 
