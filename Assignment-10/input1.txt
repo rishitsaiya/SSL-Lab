@@ -1,0 +1,31 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+udev             8096440        0   8096440   0% /dev
+tmpfs            1624060     2300   1621760   1% /run
+/dev/sda6      383444504 20618412 343278444   6% /
+tmpfs            8120292   300164   7820128   4% /dev/shm
+tmpfs               5120        4      5116   1% /run/lock
+tmpfs            8120292        0   8120292   0% /sys/fs/cgroup
+/dev/loop2         15104    15104         0 100% /snap/gnome-characters/317
+/dev/loop3          3840     3840         0 100% /snap/gnome-system-monitor/100
+/dev/loop0        144128   144128         0 100% /snap/gnome-3-26-1604/92
+/dev/loop5         13312    13312         0 100% /snap/gnome-characters/139
+/dev/loop1         55936    55936         0 100% /snap/core18/1223
+/dev/loop8        144128   144128         0 100% /snap/gnome-3-26-1604/74
+/dev/loop4          4352     4352         0 100% /snap/gnome-calculator/501
+/dev/loop7         55808    55808         0 100% /snap/core18/1192
+/dev/loop6         91264    91264         0 100% /snap/core/7917
+/dev/loop9          1024     1024         0 100% /snap/gnome-logs/73
+/dev/loop11         1024     1024         0 100% /snap/gnome-logs/81
+/dev/loop12         2304     2304         0 100% /snap/gnome-calculator/260
+/dev/loop10       153600   153600         0 100% /snap/gnome-3-28-1804/71
+/dev/loop14        91264    91264         0 100% /snap/core/7713
+/dev/loop13        45312    45312         0 100% /snap/gtk-common-themes/1353
+/dev/loop15         3840     3840         0 100% /snap/gnome-system-monitor/57
+/dev/loop16        43904    43904         0 100% /snap/gtk-common-themes/1313
+/dev/sda2          98304    37543     60761  39% /boot/efi
+tmpfs            1624056       16   1624040   1% /run/user/121
+tmpfs            1624056       36   1624020   1% /run/user/1000
+/dev/sda5      311159804 18887092 292272712   7% /media/sysad/New Volume
+/dev/sda4      255420412 41794300 213626112  17% /media/sysad/C4B0A624B0A61D44
+tmpfs            1624056       44   1624012   1% /run/user/1001
+
