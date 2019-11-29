@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<center><h1>Drivers License Eligibility</h1></center>
+	<title>Drivers License Eligibility</title>
+</head>
+<body bgcolor="antiquewhite">
+	<script type="text/javascript">
+		function check(){
+			f1 = document.getElementById("f1");
+			age = f1.elements[0]
+			x = Number(age.value)
+			if (!(x>=18 && x<=100)) {
+				alert ("Age must be between 18 & 100");
+			}
+			else{
+				document.write("You are eligible")
+			} 
+			
+		}
+	</script>
+	<form id="f1">
+		Age: <input type="text" name="age" title="Enter Age"><br><br>
+		<button onclick="check()" title="Check Availability Here">Check Eligibility</button>
+	</form>
+</body>
+</html>

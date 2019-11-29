@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci Sequence</title>
+<center><h1>Fibonacci Sequence</h1></center>
+</head>
+<body bgcolor="antiquewhite">
+	<script type="text/javascript">
+		
+		function fibonnaci(){
+			frm = document.getElementById("f1");
+			elem1 = frm.elements[0]
+			n =  Number (elem1.value)
+			//document.write(n)
+
+			var a=0,b=1;
+
+			if(n==0){
+				document.write("Enter a Valid Number")
+			}
+
+			if(n==1){
+				document.write(a + "\n")
+			}
+
+			if(n==2){
+				document.write(a + "\n")
+				document.write(b + "\n")
+			}
+
+			if(n>2){
+				document.write(a + "\n")
+				document.write(b + "\n")
+			for(var i=3;i<=n;i++){
+				c=a+b;
+				document.write(c + "\n")
+				a=b;
+				b=c;
+			}
+		}
+	}
+	</script>
+
+	<form id="f1" onsubmit="fibonnaci()">
+		Entering a number would yield those many terms of Fibonacci Sequence: <br><br>
+		 <input type="text" name="x">
+		 <br><br> <br> 
+
+		<input type="submit" value="Calculate">
+		 
+	</form>
+
+
+</body>
+</html>

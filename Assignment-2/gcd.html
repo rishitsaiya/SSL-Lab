@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GCD</title>
+<center><h1>GCD : Greatest Common Divisor</h1></center>
+</head> 
+
+<body bgcolor="antiquewhite">
+	<script type="text/javascript">
+		
+        function calculate(){
+        frm = document.getElementById("form1");
+			elem1 = frm.elements[0]
+            elem2 = frm.elements[1]
+            x =  Number (elem1.value)
+            //document.write(x)
+            y =  Number (elem2.value)
+            //document.write(y)
+
+            for(var i=0; i<x && i<y; i++){
+                if(x%i==0 && y%i==0){
+                     var gcd=i;
+                }
+            }
+            document.write("GCD is : " + gcd)
+        }
+        
+	</script>
+
+<form Id="form1" onsubmit="calculate()">
+		Number: <br>
+		 <input type="text" name="x">
+		<br><br>
+		Entering a number would give those many terms of Fibonacci Sequence: <br>
+		<input type="text" name="y">		
+		<br> <br> <br>
+
+		<input type="submit" value="Calculate">
+</body>
+</html>

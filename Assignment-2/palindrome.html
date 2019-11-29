@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<center><h1>Palindrome Check</h1></center>
+	<title>Palindrome</title>
+</head>
+<body bgcolor="antiquewhite">
+	<script type="text/javascript">
+		function pcheck(){
+		frm = document.getElementById("f1");
+		word=frm.elements[0].value
+		
+		//document.write('word')
+		
+				//var re = /[^A-Za-z0-9]/g;
+ 				w = word.toLowerCase()
+ 				//document.write('w')
+ 					var len = w.length;
+ 					//document.write('len')
+ 				
+ 				if((len%2)==1){
+ 					len=(len-1);
+ 					//document.write('len')
+ 				}
+ 			
+ 			var x=0;
+
+ 			for (var i = 0; i <= len/2; i++) {
+   				if (word[i] != word[len-i-1]) {
+       			var x=1
+   				}
+ 			}
+
+ 			if(x!=0){
+ 				document.write("It is a Palindrome")	
+ 			}
+ 			else{
+ 				document.write("It is not a Palindrome")
+ 			}
+			
+		}
+	</script>
+	
+	<form id="f1" onsubmit="pcheck()">
+	Enter a word here: <input type="text"><br><br>
+	<input type="submit" value="Check">
+	</form>
+
+</body>
+</html>
