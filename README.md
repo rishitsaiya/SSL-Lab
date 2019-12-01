@@ -17,6 +17,11 @@ The assignments have been labelled in accordance with the order of course progre
 Each assignment has a directory. The problem statement will be present in the ```.pdf``` file.
 
 ### Codes and related files
-The codes and extra files relating to the assignments will be present in the pertaining directory. 
+The codes and extra files relating to the assignments will be present in the pertaining directory.
+
+### Table of Contents
+1. Assingment 1
+  Topics Covered : HTML5
+2.
 
 #### Open for PR(s).
