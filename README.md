@@ -22,6 +22,7 @@ The codes and extra files relating to the assignments will be present in the per
 ### Table of Contents
 1. Assingment 1
   Topics Covered : HTML5
-2.
+2. Assignment 2
+  Topics Covered : JavaScript Introduction
 
 #### Open for PR(s).
