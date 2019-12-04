@@ -24,5 +24,7 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : HTML5
 2. Assignment 2
   Topics Covered : JavaScript Introduction
+3. Assignment 3
+  Topics Covered : JavaScript Advanced
 
 #### Open for PR(s).
