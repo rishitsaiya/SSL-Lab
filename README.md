@@ -26,5 +26,7 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : JavaScript Introduction
 3. Assignment 3
   Topics Covered : JavaScript Advanced
+4. Assignment 4
+  Topics Covered : PHP Introduction
 
 #### Open for PR(s).
