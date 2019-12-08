@@ -20,13 +20,15 @@ Each assignment has a directory. The problem statement will be present in the ``
 The codes and extra files relating to the assignments will be present in the pertaining directory.
 
 ### Table of Contents
-1. Assingment 1
+1. Assingment 1\
   Topics Covered : HTML5
-2. Assignment 2
+2. Assignment 2\
   Topics Covered : JavaScript Introduction
-3. Assignment 3
+3. Assignment 3\
   Topics Covered : JavaScript Advanced
-4. Assignment 4
+4. Assignment 4\ 
   Topics Covered : PHP Introduction
+5. Assignment 5\ 
+  Topics Covered : PHP Advanced
 
 #### Open for PR(s).
