@@ -32,5 +32,7 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : PHP Advanced
 6. Assignment 6\
   Topics Covered : MySQL Database Introduction
+7. Assignment 7\
+  Topics Covered : PHP with MySQL databases
 
 #### Open for PR(s).
