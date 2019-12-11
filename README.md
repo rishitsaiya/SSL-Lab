@@ -34,5 +34,6 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : MySQL Database Introduction
 7. Assignment 7\
   Topics Covered : PHP with MySQL databases
-
+8. Assignment 8\
+  Topics Covered : Introduction to Bash and basic commands in Bash Scripting
 #### Open for PR(s).
