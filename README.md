@@ -36,4 +36,6 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : PHP with MySQL databases
 8. Assignment 8\
   Topics Covered : Introduction to Bash and basic commands in Bash Scripting
+9. Assignment 9\
+  Topics Covered : Bash and SED scripting
 #### Open for PR(s).
