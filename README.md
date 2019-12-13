@@ -38,4 +38,6 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : Introduction to Bash and basic commands in Bash Scripting
 9. Assignment 9\
   Topics Covered : Bash and SED scripting
+10. Assignment 10\
+  Topics Covered : AWK scripting introduction
 #### Open for PR(s).
