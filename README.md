@@ -39,5 +39,7 @@ The codes and extra files relating to the assignments will be present in the per
 9. Assignment 9\
   Topics Covered : Bash and SED scripting
 10. Assignment 10\
-  Topics Covered : AWK scripting introduction
+  Topics Covered : AWK scripting Introduction
+11. Assignment 11\
+  Topics Covered : AWK Advanced
 #### Open for PR(s).
