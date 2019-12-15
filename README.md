@@ -42,4 +42,6 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : AWK scripting Introduction
 11. Assignment 11\
   Topics Covered : AWK Advanced
+12. Assignment 12\
+  Topics Covered : LaTeX Introduction
 #### Open for PR(s).
