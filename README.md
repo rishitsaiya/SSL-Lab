@@ -44,4 +44,6 @@ The codes and extra files relating to the assignments will be present in the per
   Topics Covered : AWK Advanced
 12. Assignment 12\
   Topics Covered : LaTeX Introduction
+13. Assignment 13\
+  Topics Covered : Advanced LaTeX, Beamer and Tikz Library
 #### Open for PR(s).
